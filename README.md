@@ -1,34 +1,91 @@
-* AI Resume Analyzer Automation
+# 🚀 AI Resume Analyzer (Automation Project)
 
-* Overview
-This project analyzes resumes using AI and sends feedback automatically via email.
-
-* Tech Stack
-- Google Forms
-- Google Sheets
-- Make
-- OpenAI
-- Gmail
-
-* Workflow
-1. User submits resume in Google Form  
-2. Data goes to Google Sheets  
-3. Make triggers automation  
-4. OpenAI analyzes resume  
-5. Gmail sends report  
+![Project Banner](screenshots/make-flow.png)
 
 ---
 
-* Screenshots
+## 📌 Overview
+AI Resume Analyzer is an end-to-end automation project that uses OpenAI to evaluate resumes and send structured feedback via email.
 
-* Google Form
+This system eliminates manual resume review by integrating multiple services into a seamless workflow.
+
+---
+
+## ⚙️ Tech Stack
+
+| Tool | Purpose |
+|------|--------|
+| Google Forms | Collect user input |
+| Google Sheets | Store responses |
+| Make (Integromat) | Automation engine |
+| OpenAI (GPT) | Resume analysis |
+| Gmail | Email delivery |
+
+---
+
+## 🔄 Workflow Architecture
+
+![Workflow](screenshots/make-flow.png)
+
+1. User submits resume via Google Form  
+2. Data is stored in Google Sheets  
+3. Make detects new entry  
+4. OpenAI analyzes resume content  
+5. Gmail sends structured feedback  
+
+---
+
+## ✨ Features
+
+- 📊 Resume score out of 100  
+- ✅ Strength analysis  
+- ⚠️ Weakness detection  
+- 🚀 Improvement suggestions  
+- 🔁 Fully automated pipeline  
+
+---
+
+## 📸 Project Screenshots
+
+### 📝 Google Form
 ![Form](screenshots/form.png)
 
-* Make Flow
+### ⚙️ Automation Flow
 ![Flow](screenshots/make-flow.png)
 
-* Email Output
+### 📧 Email Output
 ![Email](screenshots/email-output.png)
 
-* Google Sheets
+### 📊 Data Storage
 ![Sheet](screenshots/sheet-data.png)
+
+---
+
+## 🧪 How It Works
+
+1. Fill the Google Form with resume details  
+2. Submit the form  
+3. Automation gets triggered  
+4. AI processes the resume  
+5. Email is delivered instantly  
+
+---
+
+## 🔮 Future Enhancements
+
+- 📄 PDF report generation  
+- 📂 Resume file parsing (PDF/DOCX)  
+- 🌐 Web-based UI dashboard  
+- ⚡ Real-time execution  
+
+---
+
+## 👨‍💻 Author
+
+**Smithal Gunnammagari**
+
+---
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub!
